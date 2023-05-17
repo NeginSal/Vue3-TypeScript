@@ -49,13 +49,13 @@ export default defineComponent({
       },
     ]);
 
-    const order = ref<OrderTerm>('title')
+    const order = ref<OrderTerm>("title");
 
     const handleClick = (term: OrderTerm) => {
-      order.value = term
-    }
+      order.value = term;
+    };
 
-    return { jobs, order, handleClick }
+    return { jobs, order, handleClick };
   },
 });
 </script>
